@@ -44,7 +44,7 @@ class MigratizeCommand extends Command
             $this->line("GPT-4 is generating the migration for {$table}…");
 
             $response = Http::withToken(config('migratize.secret_key'))
-                ->timeout(600)
+                ->timeout(300)
                 ->retry(3)
                 ->post(config('migratize.debug', false)
                     ? 'https://smousss.test/api/migratize'
