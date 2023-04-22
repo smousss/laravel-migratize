@@ -1,10 +1,12 @@
-# Migratize for Laravel
+![Migratize](https://user-images.githubusercontent.com/3613731/233783189-d8343695-d7a0-4778-a0f1-83d44148aae7.png)
+
+# Enjoy the convenience of migrations again
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/smousss/laravel-migratize.svg?style=flat-square)](https://packagist.org/packages/smousss/laravel-migratize)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/smousss/laravel-migratize/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/smousss/laravel-migratize/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/smousss/laravel-migratize.svg?style=flat-square)](https://packagist.org/packages/smousss/laravel-migratize)
 
-Smousss can generate missing migrations with GPT-4.
+Whether you are using MariaDB, MySQL, Oracle, PostgreSQL, SQLite, SQL server, or anything else, Smousss generates the missing migrations based on what's currently in your database using the power of GPT-4.
 
 ## Installation
 
